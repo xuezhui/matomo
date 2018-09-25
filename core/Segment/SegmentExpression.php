@@ -393,6 +393,7 @@ class SegmentExpression
         if (empty($string)) {
             return array();
         }
+
         $tree = array();
         $i = 0;
         $length = strlen($string);
