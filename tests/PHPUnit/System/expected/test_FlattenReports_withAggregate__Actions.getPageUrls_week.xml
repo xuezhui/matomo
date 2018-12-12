@@ -251,7 +251,7 @@
 		<url>http://example.org/dir1/sub/dir/page0.html</url>
 		<Actions_PageUrl>/dir1/sub/dir/page0.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir1%2Fsub%2Fdir%2Fpage0.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir1%252Fsub%252Fdir%252Fpage0.html</segment>
 	</row>
 	<row>
 		<label>/dir1/sub/dir/page1.html</label>
@@ -274,7 +274,7 @@
 		<url>http://example.org/dir1/sub/dir/page1.html</url>
 		<Actions_PageUrl>/dir1/sub/dir/page1.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir1%2Fsub%2Fdir%2Fpage1.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir1%252Fsub%252Fdir%252Fpage1.html</segment>
 	</row>
 	<row>
 		<label>/dir1/sub/dir/page2.html</label>
@@ -299,7 +299,7 @@
 		<url>http://example.org/dir1/sub/dir/page2.html</url>
 		<Actions_PageUrl>/dir1/sub/dir/page2.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir1%2Fsub%2Fdir%2Fpage2.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir1%252Fsub%252Fdir%252Fpage2.html</segment>
 	</row>
 	<row>
 		<label>/dir2/sub/dir/page0.html</label>
@@ -327,7 +327,7 @@
 		<url>http://example.org/dir2/sub/dir/page0.html</url>
 		<Actions_PageUrl>/dir2/sub/dir/page0.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir2%2Fsub%2Fdir%2Fpage0.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir2%252Fsub%252Fdir%252Fpage0.html</segment>
 	</row>
 	<row>
 		<label>/dir2/sub/dir/page1.html</label>
@@ -350,7 +350,7 @@
 		<url>http://example.org/dir2/sub/dir/page1.html</url>
 		<Actions_PageUrl>/dir2/sub/dir/page1.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir2%2Fsub%2Fdir%2Fpage1.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir2%252Fsub%252Fdir%252Fpage1.html</segment>
 	</row>
 	<row>
 		<label>/dir2/sub/dir/page2.html</label>
@@ -375,7 +375,7 @@
 		<url>http://example.org/dir2/sub/dir/page2.html</url>
 		<Actions_PageUrl>/dir2/sub/dir/page2.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir2%2Fsub%2Fdir%2Fpage2.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir2%252Fsub%252Fdir%252Fpage2.html</segment>
 	</row>
 	<row>
 		<label>/dir3/sub/dir/page0.html</label>
@@ -403,7 +403,7 @@
 		<url>http://example.org/dir3/sub/dir/page0.html</url>
 		<Actions_PageUrl>/dir3/sub/dir/page0.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir3%2Fsub%2Fdir%2Fpage0.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir3%252Fsub%252Fdir%252Fpage0.html</segment>
 	</row>
 	<row>
 		<label>/dir3/sub/dir/page1.html</label>
@@ -426,7 +426,7 @@
 		<url>http://example.org/dir3/sub/dir/page1.html</url>
 		<Actions_PageUrl>/dir3/sub/dir/page1.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir3%2Fsub%2Fdir%2Fpage1.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir3%252Fsub%252Fdir%252Fpage1.html</segment>
 	</row>
 	<row>
 		<label>/dir3/sub/dir/page2.html</label>
@@ -451,7 +451,7 @@
 		<url>http://example.org/dir3/sub/dir/page2.html</url>
 		<Actions_PageUrl>/dir3/sub/dir/page2.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fdir3%2Fsub%2Fdir%2Fpage2.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fdir3%252Fsub%252Fdir%252Fpage2.html</segment>
 	</row>
 	<row>
 		<label>/page1.html</label>
@@ -476,7 +476,7 @@
 		<url>http://example.org/page1.html</url>
 		<Actions_PageUrl>/page1.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fpage1.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fpage1.html</segment>
 	</row>
 	<row>
 		<label>/sub</label>
@@ -576,6 +576,6 @@
 		<url>http://example.org/sub/dir/dir1/page1.html</url>
 		<Actions_PageUrl>/sub/dir/dir1/page1.html</Actions_PageUrl>
 		<is_aggregate>0</is_aggregate>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Fsub%2Fdir%2Fdir1%2Fpage1.html</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Fsub%252Fdir%252Fdir1%252Fpage1.html</segment>
 	</row>
 </result>

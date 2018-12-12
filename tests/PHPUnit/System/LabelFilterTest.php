@@ -40,8 +40,7 @@ class LabelFilterTest extends SystemTestCase
             'dir'                     => '  dir   ',
             '0'                       => '/0',
 
-            // TODO the label in the API output is ...&amp;#039;... why does it only work this way?
-            'thisiscool'              => '/ééé&quot;&#039;... &lt;this is cool&gt;!',
+            'thisiscool'              => urlencode('/%C3%A9%C3%A9%C3%A9%22%27...%20%3Cthis%20is%20cool%3E!'),
 
             // second level
             'dirnonExistent'          => 'dir>nonExistent',

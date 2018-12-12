@@ -672,7 +672,7 @@
 		<exit_rate>100%</exit_rate>
 		<avg_time_generation>0.001</avg_time_generation>
 		<url>http://piwik.net/</url>
-		<segment>pageUrl==http%3A%2F%2Fpiwik.net%2F</segment>
+		<segment>pageUrl==http%253A%252F%252Fpiwik.net%252F</segment>
 	</row>
 	<row>
 		<label>Citrix</label>
@@ -869,7 +869,7 @@
 		<exit_rate>100%</exit_rate>
 		<avg_time_generation>0</avg_time_generation>
 		<url>http://example.org/index.htm</url>
-		<segment>pageUrl==http%3A%2F%2Fexample.org%2Findex.htm</segment>
+		<segment>pageUrl==http%253A%252F%252Fexample.org%252Findex.htm</segment>
 	</row>
 	<row>
 		<label>/moved-permanently</label>
@@ -895,7 +895,7 @@
 		<exit_rate>0%</exit_rate>
 		<avg_time_generation>0</avg_time_generation>
 		<url>http://piwik.net/moved-permanently</url>
-		<segment>pageUrl==http%3A%2F%2Fpiwik.net%2Fmoved-permanently</segment>
+		<segment>pageUrl==http%253A%252F%252Fpiwik.net%252Fmoved-permanently</segment>
 	</row>
 	<row>
 		<label>/register.php?0,approve=9a94a02145599</label>
@@ -923,7 +923,7 @@
 		<exit_rate>100%</exit_rate>
 		<avg_time_generation>0</avg_time_generation>
 		<url>http://forum.piwik.org/register.php?0,approve=9a94a02145599</url>
-		<segment>pageUrl==http%3A%2F%2Fforum.piwik.org%2Fregister.php%3F0%2Capprove%3D9a94a02145599</segment>
+		<segment>pageUrl==http%253A%252F%252Fforum.piwik.org%252Fregister.php%253F0%252Capprove%253D9a94a02145599</segment>
 	</row>
 	<row>
 		<label>/temp-redirect</label>
@@ -946,7 +946,7 @@
 		<exit_rate>100%</exit_rate>
 		<avg_time_generation>0</avg_time_generation>
 		<url>http://piwik.net/temp-redirect</url>
-		<segment>pageUrl==http%3A%2F%2Fpiwik.net%2Ftemp-redirect</segment>
+		<segment>pageUrl==http%253A%252F%252Fpiwik.net%252Ftemp-redirect</segment>
 	</row>
 	<row>
 		<label>/to-an-error</label>
@@ -974,7 +974,7 @@
 		<exit_rate>100%</exit_rate>
 		<avg_time_generation>0</avg_time_generation>
 		<url>http://piwik.net/to-an-error</url>
-		<segment>pageUrl==http%3A%2F%2Fpiwik.net%2Fto-an-error</segment>
+		<segment>pageUrl==http%253A%252F%252Fpiwik.net%252Fto-an-error</segment>
 	</row>
 	<row>
 		<label>api</label>
