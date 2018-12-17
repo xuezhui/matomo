@@ -75,6 +75,7 @@ class Actions extends BaseFilter
             $table->queueFilter('GroupBy', array('label', function ($label) {
                 return DataTable\Filter\SafeDecodeLabel::decodeLabelSafe($label); // to make up for SafeDecodeLabel later
             }));
+            $table->setMetadata(DataTable\Filter\SafeDecodeLabel::APPLIED_METADATA_NAME, 1);
         }
 
         foreach ($table->getRowsWithoutSummaryRow() as $row) {
