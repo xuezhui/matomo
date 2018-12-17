@@ -71,9 +71,9 @@ class Actions extends BaseFilter
             }
         });
 
-        if (!$isFlattening) { // SafeDecodeLabel is not called subtables are requested during flattening
+        if (!$isFlattening) { // SafeDecodeLabel is not called when subtables are requested during flattening
             $table->queueFilter('GroupBy', array('label', function ($label) {
-                return urlencode($label); // to make up for SafeDecodeLabel later
+                return DataTable\Filter\SafeDecodeLabel::decodeLabelSafe($label); // to make up for SafeDecodeLabel later
             }));
         }
 

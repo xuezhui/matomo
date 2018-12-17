@@ -117,17 +117,14 @@ class DataTablePostProcessor
         }
 
         $dataTable = $this->applyGenericFilters($dataTable);
-
-        // we automatically safe decode all datatable labels (against xss)
-        $dataTable->filter(DataTable\Filter\SafeDecodeLabel::class);
-        $dataTable->filter(DataTable\Filter\GroupBy::class, ['label']); // in case SafeDecodeLabel creates identical labels
-
         $this->applyComputeProcessedMetrics($dataTable);
 
         if ($this->callbackAfterGenericFilters) {
             call_user_func($this->callbackAfterGenericFilters, $dataTable);
         }
 
+        // we automatically safe decode all datatable labels (against xss)
+        $dataTable->queueFilter('SafeDecodeLabel');
         $dataTable = $this->convertSegmentValueToSegment($dataTable);
         $dataTable = $this->applyQueuedFilters($dataTable);
         $dataTable = $this->applyRequestedColumnDeletion($dataTable);
