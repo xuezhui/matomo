@@ -13,7 +13,7 @@ describe("UsersManager", function () {
 
     var url = "?module=UsersManager&action=index";
 
-    before(async function() {
+    before(async function() {UsersManager_filters
         await page.webpage.setViewport({
             width: 1250,
             height: 768
@@ -35,8 +35,8 @@ describe("UsersManager", function () {
     });
 
     it('should filter by username and access level when the inputs are filled', async function () {
-        await page.type('#user-text-filter', 'ight');
         await page.evaluate(function () {
+            $('#user-text-filter').val('ight').change();
             $('select[name=access-level-filter]').val('string:view').change();
         });
         await page.waitForNetworkIdle();
